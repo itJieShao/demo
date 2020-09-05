@@ -1,0 +1,34 @@
+body{font-family:Helvetica,Arial,"\5FAE\8F6F\96C5\9ED1",sans-serif;font-size:14px;line-height:1.6;}
+body, button, input, select, textarea {font: .12rem/1.5 Helvetica, Arial, "MicroSoft YaHei", sans-serif;}/*定义字体*/
+body, h1, h2, h3, h4, h5, h6, hr, p, dl, dd, ul, ol, button, input, textarea, form, th, td ,figure{ margin: 0; }/*清除margin*/
+ol,ul {padding:0;list-style:none;}/*处理列表的padding*/
+table {border-collapse:collapse;border-spacing: 0;} /*table的边线等*/
+table a {font-size:.12rem;}/*table的a字体大小*/
+a {text-decoration:none;cursor:pointer; color: inherit;}
+a:hover {text-decoration:none;}
+img {border:none;}
+input[type="botton"] {word-wrap:break-word;outline:none;vertical-align:middle;}
+input {border-radius:0;}
+input[type="button"],input[type="submit"],input[type="reset"] {-webkit-appearance:none;}/*ios兼容性问题*/
+i,em {font-style:normal;}/*有一定几率处理掉的属性*/
+textarea {resize:none;-webkit-appearance: none;}/*固定textarea标签，在移动端需要研究下存在的必要性*/
+dl,dd,dt,li,div,em,i,b,strong,a{-webkit-tap-highlight-color:transparent;}
+ins {text-decoration:none;}
+:focus {outline:none;}
+/*重设placeholder，在移动端应该可以稍作删减*/
+::-webkit-input-placeholder  {color: #999;}
+::-moz-placeholder  {color: #999;}
+:-ms-input-placeholder  {color: #999;}
+
+#app {
+    width: 3.75rem;
+    margin: 0 auto;
+    font-size: .14rem;
+    height: calc(100vh - .54rem);
+    overflow-y: auto;
+}
+@media only screen and (min-width: 1025px) {
+  html {
+    font-size: 100px !important;
+  }
+}
